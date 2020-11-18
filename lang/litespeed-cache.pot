@@ -3830,7 +3830,7 @@ msgid "Image Optimization Settings"
 msgstr ""
 
 #: tpl/img_optm/entry.tpl.php:22
-msgid "Hostoo Cache Image Optimization"
+msgid "Hostoo Cache Otimização de Imagens"
 msgstr ""
 
 #: tpl/img_optm/settings.media_webp.tpl.php:14
@@ -4301,7 +4301,7 @@ msgid "Tuning Settings"
 msgstr ""
 
 #: tpl/page_optm/entry.tpl.php:19
-msgid "Hostoo Cache Page Optimization"
+msgid "Hostoo Cache Otimização de Página"
 msgstr ""
 
 #: tpl/page_optm/entry.tpl.php:32
