@@ -115,7 +115,7 @@
 	display: none !important;
 }
 
-.litespeed-right {
+.hostoo-right {
 	float: right !important;
 }
 
@@ -144,19 +144,19 @@
 	margin-left: 20px !important;
 }
 
-.litespeed-right10 {
+.hostoo-right10 {
 	margin-right: 10px !important;
 }
 
-.litespeed-right20 {
+.hostoo-right20 {
 	margin-right: 20px !important;
 }
 
-.litespeed-right30 {
+.hostoo-right30 {
 	margin-right: 30px !important;
 }
 
-.litespeed-right50 {
+.hostoo-right50 {
 	margin-right: 50px !important;
 }
 
@@ -292,6 +292,10 @@
 
 .hostoo-success{
 	color: #228B22 !important;
+}
+
+.hostoo-indisp{
+	color:#6b6a6aab !important;
 }
 
 .litespeed-warning {
@@ -850,44 +854,44 @@ h3 .litespeed-learn-more {
 	background: none;
 }
 
-.litespeed .litespeed-btn-danger-bg,
-.hostoo-wrap .litespeed-btn-danger-bg,
-.litespeed-btn-danger-bg {
+.litespeed .hostoo-btn-danger-bg,
+.hostoo-wrap .hostoo-btn-danger-bg,
+.hostoo-btn-danger-bg {
 	background: #dc3545;
 	color: #fff;
 	border: 1px solid #cc3d6a;
 	box-shadow: 0 1px 0 rgba(177, 93, 93, 0.5);
 }
 
-.litespeed .litespeed-btn-danger,
-.hostoo-wrap .litespeed-btn-danger,
-.litespeed-btn-danger {
+.litespeed .hostoo-btn-danger,
+.hostoo-wrap .hostoo-btn-danger,
+.hostoo-btn-danger {
 	background: #fff;
 	color: #cc3d6a;
 	border: 1px solid #cc3d6a;
 	box-shadow: 0 1px 0 rgba(177, 93, 93, 0.5);
 }
 
-.litespeed .litespeed-btn-danger:hover,
-.hostoo-wrap .litespeed-btn-danger:hover,
-.litespeed-btn-danger:hover {
+.litespeed .hostoo-btn-danger:hover,
+.hostoo-wrap .hostoo-btn-danger:hover,
+.hostoo-btn-danger:hover {
 	border-color: #ab244e;
 	background: #cc3d6a;
 	color: #fff;
 }
 
-.litespeed .litespeed-btn-warning,
-.hostoo-wrap .litespeed-btn-warning,
-.litespeed-btn-warning {
+.litespeed .hostoo-btn-warning,
+.hostoo-wrap .hostoo-btn-warning,
+.hostoo-btn-warning {
 	background: #fff;
 	color: #e59544;
 	border: 1px solid #e59544;
 	box-shadow: 0 1px 0 rgba(249, 166, 82, 0.55);
 }
 
-.litespeed .litespeed-btn-warning:hover,
-.hostoo-wrap .litespeed-btn-warning:hover,
-.litespeed-btn-warning:hover {
+.litespeed .hostoo-btn-warning:hover,
+.hostoo-wrap .hostoo-btn-warning:hover,
+.hostoo-btn-warning:hover {
 	border-color: #e59544;
 	background: #e59544;
 	color: #fff;
@@ -936,9 +940,9 @@ h3 .litespeed-learn-more {
 	box-shadow: 0 1px 0 #0073aa, 0 0 2px 1px #33b3db;
 }
 
-.litespeed .litespeed-btn-primary,
-.hostoo-wrap .litespeed-btn-primary,
-.litespeed-btn-primary {
+.litespeed .hostoo-btn-success,
+.hostoo-wrap .hostoo-btn-success,
+.hostoo-btn-success {
 	color: #538ac6;
 	border: 1px solid #538ac6;
 	-moz-box-shadow: 0 0 0 1px rgba(83, 138, 198, 0.25);
@@ -946,15 +950,15 @@ h3 .litespeed-learn-more {
 	box-shadow: 0 0 0 1px rgba(83, 138, 198, 0.25);
 }
 
-.litespeed .litespeed-btn-primary:hover,
-.hostoo-wrap .litespeed-btn-primary:hover,
-.litespeed-btn-primary:hover {
+.litespeed .hostoo-btn-success:hover,
+.hostoo-wrap .hostoo-btn-success:hover,
+.hostoo-btn-success:hover {
 	background: #538ac6;
 	border-color: #538ac6;
 	color: #fff;
 }
 
-.hostoo-wrap .button:not(.litespeed-btn-large) .dashicons {
+.hostoo-wrap .button:not(.hostoo-btn-large) .dashicons {
 	position: relative;
 	top: 0.125em;
 }
@@ -983,7 +987,7 @@ h3 .litespeed-learn-more {
 	vertical-align: middle;
 }
 
-.litespeed-btn-pie {
+.hostoo-btn-pie {
 	-webkit-appearance: none;
 	background: none;
 	border: none;
@@ -998,36 +1002,36 @@ h3 .litespeed-learn-more {
    BUTTONS - sizes
 ======================================= */
 
-.hostoo-wrap .litespeed-btn-tiny {
+.hostoo-wrap .hostoo-btn-tiny {
 	padding: 2px 8px;
 	line-height: 1.5;
 	height: auto;
 }
 
-.hostoo-wrap .litespeed-btn-mini {
+.hostoo-wrap .hostoo-btn-success {
 	padding: 0 8px 1px;
 	font-size: 12px;
 	font-weight: 600;
 	margin: 5px 0;
 }
 
-.hostoo-wrap .litespeed-btn-mini .dashicons.dashicons-image-rotate {
+.hostoo-wrap .hostoo-btn-success .dashicons.dashicons-image-rotate {
 	padding-top: 3px;
 	font-size: 18px;
 }
 
-.hostoo-wrap .litespeed-btn-mini .dashicons {
+.hostoo-wrap .hostoo-btn-success .dashicons {
 	padding-top: 2px;
 }
 
-.hostoo-wrap .litespeed-btn-large {
+.hostoo-wrap .hostoo-btn-large {
 	font-size: 1.5em;
 	padding: .75em 1.5em;
 	margin: 0 .25em;
 	height: auto;
 }
 
-.hostoo-wrap .litespeed-btn-large .dashicons {
+.hostoo-wrap .hostoo-btn-large .dashicons {
 	font-size: 1.25em;
 	width: auto;
 }
@@ -1749,7 +1753,7 @@ input.litespeed-input-warning {
 	vertical-align: baseline;
 }
 
-.hostoo-wrap .button:not(.litespeed-btn-large).litespeed-form-action .dashicons {
+.hostoo-wrap .button:not(.hostoo-btn-large).litespeed-form-action .dashicons {
 	font-size: 1.2em;
 	vertical-align: middle;
 	top: 0;
@@ -1895,7 +1899,7 @@ input.litespeed-input-warning {
 	color: #888888;
 }
 
-a.litespeed-btn-xs.litespeed-banner-promo-slack-btn {
+a.hostoo-btn-xs.litespeed-banner-promo-slack-btn {
 	margin: 0px 5px;
 }
 
@@ -2753,7 +2757,7 @@ g.litespeed-pie_info .litespeed-pie-done {
 	margin-left: 1rem;
 }
 
-.litespeed-right.litespeed-qc-dashboard-link .dashicons {
+.hostoo-right.litespeed-qc-dashboard-link .dashicons {
 	margin-left: 0.5em;
 	margin-right: 0;
 }
@@ -2991,12 +2995,12 @@ span[aria-label][data-balloon-pos] {
 	background-color: #f0f5fb;
 }
 
-.litespeed-column-java .litespeed-btn-danger {
+.litespeed-column-java .hostoo-btn-danger {
 	color: #f194a8;
 	border-color: #f194a8;
 }
 
-.litespeed-column-java .litespeed-btn-danger:hover {
+.litespeed-column-java .hostoo-btn-danger:hover {
 	background: #f194a8;
 }
 
@@ -3059,25 +3063,25 @@ span[aria-label][data-balloon-pos] {
 	background: #009933;
 }
 
-.litespeed-column-java .litespeed-btn-warning {
+.litespeed-column-java .hostoo-btn-warning {
 	color: #FFF1DD;
 	border: 1px solid #FF9933;
 	background-color: #FF9933;
 }
 
-.litespeed-column-java .litespeed-btn-warning:hover {
+.litespeed-column-java .hostoo-btn-warning:hover {
 	color: #FFFFFF;
 	border-color: #FFCA7D;
 	background: #FF9900;
 }
 
-.litespeed-column-java .litespeed-btn-danger {
+.litespeed-column-java .hostoo-btn-danger {
 	color: #FFEADD !important;
 	border: 1px solid #FF6600 !important;
 	background: #FF5C5C;
 }
 
-.litespeed-column-java .litespeed-btn-danger:hover {
+.litespeed-column-java .hostoo-btn-danger:hover {
 	color: #FFFFFF;
 	border: 1px solid #FF9797 !important;
 	background: #FF0000;
