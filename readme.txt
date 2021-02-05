@@ -1,4 +1,4 @@
-=== LiteSpeed Cache ===
+=== Hostoo Cache ===
 Contributors: LiteSpeedTech
 Tags: caching, optimize, performance, pagespeed, seo, speed, image optimize, compress, object cache, redis, memcached, database cleaner
 Requires at least: 4.0
@@ -11,11 +11,11 @@ All-in-one unbeatable acceleration & PageSpeed improvement: caching, image/CSS/J
 
 == Description ==
 
-LiteSpeed Cache for WordPress (LSCWP) is an all-in-one site acceleration plugin, featuring an exclusive server-level cache and a collection of optimization features.
+Hostoo Cache for WordPress (LSCWP) is an all-in-one site acceleration plugin, featuring an exclusive server-level cache and a collection of optimization features.
 
 LSCWP supports WordPress Multisite and is compatible with most popular plugins, including WooCommerce, bbPress, and Yoast SEO.
 
-LiteSpeed Cache for WordPress is compatible with ClassicPress.
+Hostoo Cache for WordPress is compatible with ClassicPress.
 
 == Requirements ==
 **General Features** may be used by anyone with any web server (LiteSpeed, Apache, NGINX, etc.).
@@ -100,13 +100,13 @@ LiteSpeed Cache for WordPress is compatible with ClassicPress.
 [View detailed documentation](https://docs.litespeedtech.com/lscache/lscwp/installation/).
 
 = For Optimization Without a LiteSpeed Web Server =
-1. Install the LiteSpeed Cache for WordPress plugin and activate it.
-1. From the WordPress Dashboard, navigate to **LiteSpeed Cache > Page Optimization**. Enable the available optimization features in the various tabs.
+1. Install the Hostoo Cache for WordPress plugin and activate it.
+1. From the WordPress Dashboard, navigate to **Hostoo Cache > Page Optimization**. Enable the available optimization features in the various tabs.
 
 = For Caching and Optimization With a LiteSpeed Web Server =
 1. Install [LiteSpeed Web Server Enterprise](https://www.litespeedtech.com/products/litespeed-web-server) with LSCache Module, [LiteSpeed Web ADC](https://www.litespeedtech.com/products/litespeed-web-adc), or [OpenLiteSpeed](https://www.litespeedtech.com/open-source/openlitespeed) with cache module (Free). Or sign up for [QUIC.cloud CDN](https://quic.cloud).
-1. Install the LiteSpeed Cache for WordPress plugin and activate it.
-1. From the WordPress Dashboard, navigate to **LiteSpeed Cache > Cache**, make sure the option **Enable LiteSpeed Cache** is set to `ON`.
+1. Install the Hostoo Cache for WordPress plugin and activate it.
+1. From the WordPress Dashboard, navigate to **Hostoo Cache > Cache**, make sure the option **Enable Hostoo Cache** is set to `ON`.
 1. Enable any desired caching and optimization features in the various tabs.
 
 = Notes for LiteSpeed Web Server Enterprise =
@@ -128,7 +128,7 @@ The vast majority of plugins and themes are compatible with LSCache. [Our API](h
 
 This plugin includes a Privacy blurb that you can add to your site's Privacy Policy via the WordPress Privacy settings.
 
-**For your own information:** LiteSpeed Cache for WordPress potentially stores a duplicate copy of every web page on display on your site. The pages are stored locally on the system where LiteSpeed server software is installed and are not transferred to or accessed by LiteSpeed employees in any way, except as necessary in providing routine technical support if you request it. All cache files are temporary, and may easily be purged before their natural expiration, if necessary, via a Purge All command. It is up to individual site administrators to come up with their own cache expiration rules.
+**For your own information:** Hostoo Cache for WordPress potentially stores a duplicate copy of every web page on display on your site. The pages are stored locally on the system where LiteSpeed server software is installed and are not transferred to or accessed by LiteSpeed employees in any way, except as necessary in providing routine technical support if you request it. All cache files are temporary, and may easily be purged before their natural expiration, if necessary, via a Purge All command. It is up to individual site administrators to come up with their own cache expiration rules.
 
 In addition to caching, our WordPress plugin has an Image Optimization feature. When optimization is requested, images are transmitted to a remote QUIC.cloud server, processed, and then transmitted back for use on your site. LiteSpeed keeps copies of optimized images for 7 days (in case of network stability issues) and then permanently deletes them. Similarly, the WordPress plugin has a Reporting feature whereby a site owner can transmit an environment report to our server so that we may better provide technical support. Neither of these features collects any visitor data. Only server and site data is involved.
 
@@ -151,7 +151,7 @@ If all of that sounds complicated, no need to worry. LSCWP works right out of th
 
 LSCWP includes additional optimization features, such as Database Optimization, Minification and Combination of CSS and JS files, HTTP/2 Push, CDN Support, Browser Cache, Object Cache, Lazy Load for Images, and Image Optimization! These features do not require the use of a LiteSpeed web server.
 
-= Is the LiteSpeed Cache Plugin for WordPress free? =
+= Is the Hostoo Cache Plugin for WordPress free? =
 
 Yes, LSCWP will always be free and open source. That said, a LiteSpeed server is required for the cache features, and there are fees associated with some LiteSpeed server editions. Some of the premium online services provided through QUIC.cloud (CDN Service, Image Optimization, Critical CSS, Low-Quality Image Placeholder, etc.) require payment at certain usage levels. You can learn more about what these services cost, and what levels of service are free, on [your QUIC.cloud dashboard](https://my.quic.cloud).
 
@@ -184,7 +184,7 @@ The actual cached pages are stored and managed by LiteSpeed Servers.
 
 Nothing is stored within the WordPress file structure.
 
-= Does LiteSpeed Cache for WordPress work with OpenLiteSpeed? =
+= Does Hostoo Cache for WordPress work with OpenLiteSpeed? =
 
 Yes it can work well with OpenLiteSpeed, although some features may not be supported. See **Plugin Features** above for details. Any setting changes that require modifying the `.htaccess` file will require a server restart.
 
@@ -194,7 +194,7 @@ In short, yes. However, for some WooCommerce themes, the cart may not be updated
 
 = Are my images optimized? =
 
-Images are not optimized automatically unless you set **LiteSpeed Cache > Image Optimization > Image Optimization Settings > Auto Request Cron** to `ON`. You may also optimize your images manually. [Learn more](https://docs.litespeedtech.com/lscache/lscwp/imageopt/).
+Images are not optimized automatically unless you set **Hostoo Cache > Image Optimization > Image Optimization Settings > Auto Request Cron** to `ON`. You may also optimize your images manually. [Learn more](https://docs.litespeedtech.com/lscache/lscwp/imageopt/).
 
 = How do I make a WP nonce cacheable in my third-party plugin? =
 
@@ -204,7 +204,7 @@ Our API includes a function that uses ESI to "punch a hole" in a cached page for
 
 The crawler is disabled by default, and must be enabled by the server admin first.
 
-Once the crawler is enabled on the server side, navigate to **LiteSpeed Cache > Crawler > General Settings** and set **Crawler** to `ON`.
+Once the crawler is enabled on the server side, navigate to **Hostoo Cache > Crawler > General Settings** and set **Crawler** to `ON`.
 
 For more detailed information about crawler setup, please see [the Crawler documentation](https://docs.litespeedtech.com/lscache/lscwp/crawler/).
 
@@ -242,7 +242,7 @@ For more detailed information about crawler setup, please see [the Crawler docum
 * WP-Stateless
 * Elementor
 
-The vast majority of plugins and themes are compatible with LiteSpeed Cache. The most up-to-date compatibility information can be found [in our documentation](https://docs.litespeedtech.com/lscache/lscwp/thirdparty/)
+The vast majority of plugins and themes are compatible with Hostoo Cache. The most up-to-date compatibility information can be found [in our documentation](https://docs.litespeedtech.com/lscache/lscwp/thirdparty/)
 
 
 == Changelog ==
@@ -1663,7 +1663,7 @@ The vast majority of plugins and themes are compatible with LiteSpeed Cache. The
 
 = 1.0.9 - August 25 2016 =
 * [NEW] Added functionality to cache and purge feeds.
-* [NEW] Added cache tag prefix setting to avoid conflicts when using LiteSpeed Cache for WordPress with LiteSpeed Cache for XenForo and LiteMage.
+* [NEW] Added cache tag prefix setting to avoid conflicts when using Hostoo Cache for WordPress with Hostoo Cache for XenForo and LiteMage.
 * [NEW] Added hooks to allow third party plugins to create config options.
 * [NEW] Added WooCommerce config options.
 * The plugin now also checks for wp-config in the parent directory.
@@ -1727,14 +1727,14 @@ The vast majority of plugins and themes are compatible with LiteSpeed Cache. The
 * Added an htaccess editor in the wp-admin dashboard.
 * Added do not cache user agents.
 * Added do not cache cookies.
-* Created new LiteSpeed Cache Settings submenu entries.
+* Created new Hostoo Cache Settings submenu entries.
 * Implemented Separate Mobile View.
 * Modified WP_CACHE not defined message to only show up for users who can manage options.
 * Moved enabled all/disable all from network management to network settings.
 * Fixed a bug where WP_CACHE was not defined on activation if it was commented out.
 
 = 1.0.3 - March 23 2016 =
-* Added a Purge Front Page button to the LiteSpeed Cache Management page.
+* Added a Purge Front Page button to the Hostoo Cache Management page.
 * Added a Default Front Page TTL option to the general settings.
 * Added ability to define web application specific cookie names through rewrite rules to handle logged-in cookie conflicts when using multiple web applications. <strong>[Requires LSWS 5.0.15+]</strong>
 * Improved WooCommerce handling.
@@ -1743,12 +1743,12 @@ The vast majority of plugins and themes are compatible with LiteSpeed Cache. The
 * Updated readme.txt.
 
 = 1.0.2 - March 11 2016 =
-* Added a "Use Network Admin Setting" option for "Enable LiteSpeed Cache". For single sites, this choice will default to enabled.
-* Added enable/disable all buttons for network admin. This controls the setting of all managed sites with "Use Network Admin Setting" selected for "Enable LiteSpeed Cache".
-* Exclude by Category/Tag are now text areas to avoid slow load times on the LiteSpeed Cache Settings page for sites with a large number of categories/tags.
-* Added a new line to advanced-cache.php to allow identification as a LiteSpeed Cache file.
+* Added a "Use Network Admin Setting" option for "Enable Hostoo Cache". For single sites, this choice will default to enabled.
+* Added enable/disable all buttons for network admin. This controls the setting of all managed sites with "Use Network Admin Setting" selected for "Enable Hostoo Cache".
+* Exclude by Category/Tag are now text areas to avoid slow load times on the Hostoo Cache Settings page for sites with a large number of categories/tags.
+* Added a new line to advanced-cache.php to allow identification as a Hostoo Cache file.
 * Activation/Deactivation are now better handled in multi-site environments.
-* Enable LiteSpeed Cache setting is now a radio button selection instead of a single checkbox.
+* Enable Hostoo Cache setting is now a radio button selection instead of a single checkbox.
 * Can now add '$' to the end of a URL in Exclude URI to perform an exact match.
 * The _lscache_vary cookie will now be deleted upon logout.
 * Fixed a bug in multi-site setups that would cause a "function already defined" error.
