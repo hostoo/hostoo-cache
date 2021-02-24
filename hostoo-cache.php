@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Hostoo Cache
  * Description:       High-performance page caching and site optimization from Hostoo
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Hostoo
  * Author URI:        https://hostoo.io/
  * License:           GPLv3
@@ -16,7 +16,7 @@ if (class_exists('LiteSpeed\Core') || defined('LSCWP_DIR')) {
     return;
 }
 
-! defined('LSCWP_V') && define('LSCWP_V', '1.0.3');
+! defined('LSCWP_V') && define('LSCWP_V', '1.0.4');
 
 ! defined('LSCWP_CONTENT_DIR') && define('LSCWP_CONTENT_DIR', WP_CONTENT_DIR) ;
 ! defined('LSCWP_DIR') && define('LSCWP_DIR', __DIR__ . '/') ;// Full absolute path '/var/www/html/***/wp-content/plugins/litespeed-cache/' or MU
