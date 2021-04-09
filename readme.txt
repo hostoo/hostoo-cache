@@ -1,5 +1,5 @@
 === Hostoo Cache ===
-Contributors: LiteSpeedTech
+Contributors: HostooTech
 Tags: caching, optimize, performance, pagespeed, seo, speed, image optimize, compress, object cache, redis, memcached, database cleaner
 Requires at least: 4.0
 Tested up to: 5.6
@@ -11,16 +11,16 @@ All-in-one unbeatable acceleration & PageSpeed improvement: caching, image/CSS/J
 
 == Description ==
 
-Hostoo Cache for WordPress (LSCWP) is an all-in-one site acceleration plugin, featuring an exclusive server-level cache and a collection of optimization features.
+Hostoo Cache for WordPress (HCWP) is an all-in-one site acceleration plugin, featuring an exclusive server-level cache and a collection of optimization features.
 
-LSCWP supports WordPress Multisite and is compatible with most popular plugins, including WooCommerce, bbPress, and Yoast SEO.
+HCWP supports WordPress Multisite and is compatible with most popular plugins, including WooCommerce, bbPress, and Yoast SEO.
 
 Hostoo Cache for WordPress is compatible with ClassicPress.
 
 == Requirements ==
-**General Features** may be used by anyone with any web server (LiteSpeed, Apache, NGINX, etc.).
+**General Features** may be used by anyone with any web server (Hostoo, Apache, NGINX, etc.).
 
-**LiteSpeed Exclusive Features** require one of the following: OpenLiteSpeed, commercial LiteSpeed products, LiteSpeed-powered hosting, or QUIC.cloud CDN. [Why?](https://docs.litespeedtech.com/lscache/lscwp/faq/#why-do-the-cache-features-require-a-litespeed-server)
+**Hostoo Exclusive Features** require one of the following: OpenHostoo, commercial Hostoo products, Hostoo-powered hosting, or QUIC.cloud CDN. [Why?](https://docs.litespeedtech.com/lscache/lscwp/faq/#why-do-the-cache-features-require-a-hostoo-server)
 
 == Plugin Features ==
 
@@ -52,7 +52,7 @@ Hostoo Cache for WordPress is compatible with ClassicPress.
 
 <sup>+</sup> This service is not provided by the LSCache plugin, nor is it guaranteed to be installed by your service provider. However, the plugin is compatible with the service if it is in use on your site.
 
-= LiteSpeed Exclusive Features =
+= Hostoo Exclusive Features =
 
 * Automatic page caching to greatly improve site performance
 * Automatic purge of related pages based on certain events
@@ -71,7 +71,7 @@ Hostoo Cache for WordPress is compatible with ClassicPress.
 * ESI (Edge Side Includes) support<sup>*</sup>
 * Widgets and Shortcodes as ESI blocks<sup>*</sup>
 
-<sup>*</sup> Feature not available in OpenLiteSpeed
+<sup>*</sup> Feature not available in OpenHostoo
 
 == Screenshots ==
 
@@ -87,36 +87,36 @@ Hostoo Cache for WordPress is compatible with ClassicPress.
 10. Cache Miss Example
 11. Cache Hit Example
 
-== LSCWP Resources ==
-* [Join our Slack community](https://litespeedtech.com/slack) to connect with other LiteSpeed users.
-* [Ask a question on our support forum](https://wordpress.org/support/plugin/litespeed-cache/).
+== HCWP Resources ==
+* [Join our Slack community](https://litespeedtech.com/slack) to connect with other Hostoo users.
+* [Ask a question on our support forum](https://wordpress.org/support/plugin/hostoo-cache/).
 * [View detailed documentation](https://docs.litespeedtech.com/lscache/lscwp/overview/).
 * [Read WordPress Wednesday tutorials on our blog](http://blog.litespeedtech.com/tag/wordpress-wednesday).
-* [Help translate LSCWP](https://translate.wordpress.org/projects/wp-plugins/litespeed-cache).
-* [LSCWP GitHub repo](https://github.com/litespeedtech/lscache_wp).
+* [Help translate HCWP](https://translate.wordpress.org/projects/wp-plugins/hostoo-cache).
+* [HCWP GitHub repo](https://github.com/litespeedtech/lscache_wp).
 
 == Installation ==
 
 [View detailed documentation](https://docs.litespeedtech.com/lscache/lscwp/installation/).
 
-= For Optimization Without a LiteSpeed Web Server =
+= For Optimization Without a Hostoo Web Server =
 1. Install the Hostoo Cache for WordPress plugin and activate it.
 1. From the WordPress Dashboard, navigate to **Hostoo Cache > Page Optimization**. Enable the available optimization features in the various tabs.
 
-= For Caching and Optimization With a LiteSpeed Web Server =
-1. Install [LiteSpeed Web Server Enterprise](https://www.litespeedtech.com/products/litespeed-web-server) with LSCache Module, [LiteSpeed Web ADC](https://www.litespeedtech.com/products/litespeed-web-adc), or [OpenLiteSpeed](https://www.litespeedtech.com/open-source/openlitespeed) with cache module (Free). Or sign up for [QUIC.cloud CDN](https://quic.cloud).
+= For Caching and Optimization With a Hostoo Web Server =
+1. Install [Hostoo Web Server Enterprise](https://www.litespeedtech.com/products/hostoo-web-server) with LSCache Module, [Hostoo Web ADC](https://www.litespeedtech.com/products/hostoo-web-adc), or [OpenHostoo](https://www.litespeedtech.com/open-source/openlitespeed) with cache module (Free). Or sign up for [QUIC.cloud CDN](https://quic.cloud).
 1. Install the Hostoo Cache for WordPress plugin and activate it.
 1. From the WordPress Dashboard, navigate to **Hostoo Cache > Cache**, make sure the option **Enable Hostoo Cache** is set to `ON`.
 1. Enable any desired caching and optimization features in the various tabs.
 
-= Notes for LiteSpeed Web Server Enterprise =
+= Notes for Hostoo Web Server Enterprise =
 
-* Make sure that your license includes the LSCache module. A [2-CPU trial license with LSCache module](https://www.litespeedtech.com/products/litespeed-web-server/download/get-a-trial-license "trial license") is available for free for 15 days.
+* Make sure that your license includes the LSCache module. A [2-CPU trial license with LSCache module](https://www.litespeedtech.com/products/hostoo-web-server/download/get-a-trial-license "trial license") is available for free for 15 days.
 * The server must be configured to have caching enabled. If you are the server admin, [click here](https://docs.litespeedtech.com/lscache/lscwp/overview/#configure-cache-root) for instructions. Otherwise, please request that the server admin configure the cache root for the server.
 
-= Notes for OpenLiteSpeed =
+= Notes for OpenHostoo =
 
-* This integration utilizes OpenLiteSpeed's cache module.
+* This integration utilizes OpenHostoo's cache module.
 * If it is a fresh OLS installation, the easiest way to integrate is to use [ols1clk](https://openlitespeed.org/kb/1-click-install/). If using an existing WordPress installation, use the `--wordpresspath` parameter.
 * If OLS and WordPress are both already installed, please follow the instructions in [How To Set Up LSCache For WordPress](https://openlitespeed.org/kb/how-to-setup-lscache-for-wordpress/).
 
@@ -128,65 +128,65 @@ The vast majority of plugins and themes are compatible with LSCache. [Our API](h
 
 This plugin includes a Privacy blurb that you can add to your site's Privacy Policy via the WordPress Privacy settings.
 
-**For your own information:** Hostoo Cache for WordPress potentially stores a duplicate copy of every web page on display on your site. The pages are stored locally on the system where LiteSpeed server software is installed and are not transferred to or accessed by LiteSpeed employees in any way, except as necessary in providing routine technical support if you request it. All cache files are temporary, and may easily be purged before their natural expiration, if necessary, via a Purge All command. It is up to individual site administrators to come up with their own cache expiration rules.
+**For your own information:** Hostoo Cache for WordPress potentially stores a duplicate copy of every web page on display on your site. The pages are stored locally on the system where Hostoo server software is installed and are not transferred to or accessed by Hostoo employees in any way, except as necessary in providing routine technical support if you request it. All cache files are temporary, and may easily be purged before their natural expiration, if necessary, via a Purge All command. It is up to individual site administrators to come up with their own cache expiration rules.
 
-In addition to caching, our WordPress plugin has an Image Optimization feature. When optimization is requested, images are transmitted to a remote QUIC.cloud server, processed, and then transmitted back for use on your site. LiteSpeed keeps copies of optimized images for 7 days (in case of network stability issues) and then permanently deletes them. Similarly, the WordPress plugin has a Reporting feature whereby a site owner can transmit an environment report to our server so that we may better provide technical support. Neither of these features collects any visitor data. Only server and site data is involved.
+In addition to caching, our WordPress plugin has an Image Optimization feature. When optimization is requested, images are transmitted to a remote QUIC.cloud server, processed, and then transmitted back for use on your site. Hostoo keeps copies of optimized images for 7 days (in case of network stability issues) and then permanently deletes them. Similarly, the WordPress plugin has a Reporting feature whereby a site owner can transmit an environment report to our server so that we may better provide technical support. Neither of these features collects any visitor data. Only server and site data is involved.
 
-Please see [LiteSpeed’s Privacy Policy](https://www.litespeedtech.com/company/privacy-policy) for our complete Privacy/GDPR statement.
+Please see [Hostoo’s Privacy Policy](https://www.litespeedtech.com/company/privacy-policy) for our complete Privacy/GDPR statement.
 
 == Frequently Asked Questions ==
 
-= Why do the cache features require LiteSpeed Server? =
-This plugin communicates with your LiteSpeed Web Server and its built-in page cache (LSCache) to deliver superior performance to your WordPress site. The plugin’s cache features indicate to the server that a page is cacheable and for how long, or they invalidate particular cached pages using tags.
+= Why do the cache features require Hostoo Server? =
+This plugin communicates with your Hostoo Web Server and its built-in page cache (LSCache) to deliver superior performance to your WordPress site. The plugin’s cache features indicate to the server that a page is cacheable and for how long, or they invalidate particular cached pages using tags.
 
 LSCache is a server-level cache, so it's faster than PHP-level caches. [Compare with other PHP-based caches](https://www.litespeedtech.com/benchmarks/wordpress).
 
 A page cache allows the server to bypass PHP and database queries altogether. LSCache, in particular, because of its close relationship with the server, can remember things about the cache entries that other plugins cannot, and it can analyze dependencies. It can utilize tags to manage the smart purging of the cache, and it can use vary cookies to serve multiple versions of cached content based on things like mobile vs. desktop, geographic location, and currencies. [See our Caching 101 blog series](https://blog.litespeedtech.com/tag/caching-101/).
 
-If all of that sounds complicated, no need to worry. LSCWP works right out of the box with default settings that are appropriate for most sites. [See the Beginner's Guide](https://docs.litespeedtech.com/lscache/lscwp/beginner/).
+If all of that sounds complicated, no need to worry. HCWP works right out of the box with default settings that are appropriate for most sites. [See the Beginner's Guide](https://docs.litespeedtech.com/lscache/lscwp/beginner/).
 
-**Don't have a LiteSpeed server?** Try our QUIC.cloud CDN service. It allows sites on *any server* (nginx and Apache included) to experience the power of LiteSpeed caching! [Click here](https://quic.cloud) to learn more or to give QUIC.cloud a try.
+**Don't have a Hostoo server?** Try our QUIC.cloud CDN service. It allows sites on *any server* (nginx and Apache included) to experience the power of Hostoo caching! [Click here](https://quic.cloud) to learn more or to give QUIC.cloud a try.
 
 = What about the optimization features of LSCache? =
 
-LSCWP includes additional optimization features, such as Database Optimization, Minification and Combination of CSS and JS files, HTTP/2 Push, CDN Support, Browser Cache, Object Cache, Lazy Load for Images, and Image Optimization! These features do not require the use of a LiteSpeed web server.
+HCWP includes additional optimization features, such as Database Optimization, Minification and Combination of CSS and JS files, HTTP/2 Push, CDN Support, Browser Cache, Object Cache, Lazy Load for Images, and Image Optimization! These features do not require the use of a Hostoo web server.
 
 = Is the Hostoo Cache Plugin for WordPress free? =
 
-Yes, LSCWP will always be free and open source. That said, a LiteSpeed server is required for the cache features, and there are fees associated with some LiteSpeed server editions. Some of the premium online services provided through QUIC.cloud (CDN Service, Image Optimization, Critical CSS, Low-Quality Image Placeholder, etc.) require payment at certain usage levels. You can learn more about what these services cost, and what levels of service are free, on [your QUIC.cloud dashboard](https://my.quic.cloud).
+Yes, HCWP will always be free and open source. That said, a Hostoo server is required for the cache features, and there are fees associated with some Hostoo server editions. Some of the premium online services provided through QUIC.cloud (CDN Service, Image Optimization, Critical CSS, Low-Quality Image Placeholder, etc.) require payment at certain usage levels. You can learn more about what these services cost, and what levels of service are free, on [your QUIC.cloud dashboard](https://my.quic.cloud).
 
 = What server software is required for this plugin? =
 
-A LiteSpeed solution is required in order to use the **LiteSpeed Exclusive** features of this plugin. Any one of the following will work:
+A Hostoo solution is required in order to use the **Hostoo Exclusive** features of this plugin. Any one of the following will work:
 
-1. LiteSpeed Web Server Enterprise with LSCache Module (v5.0.10+)
-2. OpenLiteSpeed (v1.4.17+)
-3. LiteSpeed WebADC (v2.0+)
+1. Hostoo Web Server Enterprise with LSCache Module (v5.0.10+)
+2. OpenHostoo (v1.4.17+)
+3. Hostoo WebADC (v2.0+)
 4. QUIC.cloud CDN
 
-The **General Features** may be used with *any* web server. LiteSpeed is not required.
+The **General Features** may be used with *any* web server. Hostoo is not required.
 
 = Does this plugin work in a clustered environment? =
 
-The cache entries are stored at the LiteSpeed server level. The simplest solution is to use LiteSpeed WebADC, as the cache entries will be stored at that level.
+The cache entries are stored at the Hostoo server level. The simplest solution is to use Hostoo WebADC, as the cache entries will be stored at that level.
 
 If using another load balancer, the cache entries will only be stored at the backend nodes, not at the load balancer.
 
 The purges will also not be synchronized across the nodes, so this is not recommended.
 
-If a customized solution is required, please contact LiteSpeed Technologies at `info@litespeedtech.com`
+If a customized solution is required, please contact Hostoo Technologies at `info@hostoo.io`
 
 NOTICE: The rewrite rules created by this plugin must be copied to the Load Balancer.
 
 = Where are the cached files stored? =
 
-The actual cached pages are stored and managed by LiteSpeed Servers.
+The actual cached pages are stored and managed by Hostoo Servers.
 
 Nothing is stored within the WordPress file structure.
 
-= Does Hostoo Cache for WordPress work with OpenLiteSpeed? =
+= Does Hostoo Cache for WordPress work with OpenHostoo? =
 
-Yes it can work well with OpenLiteSpeed, although some features may not be supported. See **Plugin Features** above for details. Any setting changes that require modifying the `.htaccess` file will require a server restart.
+Yes it can work well with OpenHostoo, although some features may not be supported. See **Plugin Features** above for details. Any setting changes that require modifying the `.htaccess` file will require a server restart.
 
 = Is WooCommerce supported? =
 
@@ -286,7 +286,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **CSS** `CSS Combine` is now compatible w/ inline noscript CSS. (@galbaras)
 * **GUI** Added ability to manually dismiss the JS option reset message in v3.5.1 upgrade process. (#473917)
 * 🐞**CSS** `CSS Excludes` setting will no longer lose items beginning w/ `#`. (@ankit)
-* **API** New `litespeed_media_reset` API function for image editing purposes. (@Andro)
+* **API** New `hostoo_media_reset` API function for image editing purposes. (@Andro)
 
 = 3.5.1 - Oct 20 2020 =
 * **JS** Inline JS containing nonces can now be combined.
@@ -299,10 +299,10 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **JS** Allowed excluded JS to still be HTTP2 pushed. (@joshua)
 * **CCSS** Critical CSS now can avoid network pollution from other sites. (@ankit)
 * **Toolbox** Beta Test now displays recent public versions so it is easier to revert to an older version
-* **Vary** Server environment variable Vary can now be passed to original server from QUIC.cloud for non-LiteSpeed servers.
+* **Vary** Server environment variable Vary can now be passed to original server from QUIC.cloud for non-Hostoo servers.
 * **ESI** Improved backward compatibility for ESI nonce list. (@zach E)
 * 🐞**Misc** Fixed failure of upgrade button on plugin news banner and made cosmetic improvements.
-* **Doc** Added note that LSCWP works with ClassicPress.
+* **Doc** Added note that HCWP works with ClassicPress.
 
 = 3.5.0.2 - Sep 30 2020 =
 * This is a temporary revert fix. Code is SAME as v3.4.2.
@@ -325,7 +325,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **JS** Predefined data file data/js_excludes.txt now available for JS Excludes.
 * **ESI** Predefined data file data/esi.nonces.txt now available for ESI Nonces.
 * **ESI** Remote Fetch ESI Nonces functionality retired.
-* **API** Added support for new litespeed_esi_nonces filter.
+* **API** Added support for new hostoo_esi_nonces filter.
 * **Object** Object Cache will not try to reconnect after failure to connect in a single process.
 * **CCSS** Remote read CSS will add the scheme if it is missing from the URL.
 * **CCSS** CSS will no longer be prepared for a URL if 404 result is detected.
@@ -362,12 +362,12 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * 🌱**CCSS** Added a Clear CCSS Queue button.
 * **CCSS** Fixed an issue which wrongly included preloaded images in CCSS. (@pixtweaks)
 * **Network** Primary site and subsite settings now display correctly.
-* **Page Optimize** Noscript tags generated by LSCWP will only be dropped when the corresponding option is enabled. (@ankit)
+* **Page Optimize** Noscript tags generated by HCWP will only be dropped when the corresponding option is enabled. (@ankit)
 * **DB Optimize** Fixed database optimizer conflicts w/ object cache transient setting. (#752931)
 * **3rd** Fixed an issue with WooCommerce product purge when order is placed.
 * **3rd** Improved WooCommerce product comment compatibility with **WooCommerce Photo Reviews Premium** plugin when using ESI.
 * **CDN** Fixed Remote jQuery compatibility with WordPress v5.5. (@pixtweaks)
-* **API** New API `litespeed_purge_all_object` and `litespeed_purged_all_object` action hooks.
+* **API** New API `hostoo_purge_all_object` and `hostoo_purged_all_object` action hooks.
 
 = 3.3.1 - Aug 12 2020 =
 * 🌱**Page Optimize** New option to Remove Noscript Tags. (@phuc88bmt)
@@ -377,7 +377,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **CCSS** Print-only styles will no longer be included in Critical CSS.
 * **API** Added hooks to Purge action to handle file deletions. (@biati)
 * **Cloud** Plain permalinks are no longer required for use of cloud services.
-* **Data** Added an access denial to work with OpenLiteSpeed. (@spenweb #PR228)
+* **Data** Added an access denial to work with OpenHostoo. (@spenweb #PR228)
 * **GUI** Spelling and grammar adjustments. (@blastoise186 #PR253)
 
 = 3.3 - Aug 6 2020 =
@@ -411,7 +411,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **ESI** Fixed the conflicts between nonces in inline JS and ESI Nonces when Inline JS Deferred is enabled. (@JesseDistad)
 * 🐞**ESI** Fixed Fetch Latest Predefined Nonce button.
 * 🐞**Cache** Fixed an issue where mobile visits were not being cached when Cache Mobile was disabled.
-* **CDN** Bypass CDN constant `LITESPEED_BYPASS_CDN` now will apply to all CDN replacements.
+* **CDN** Bypass CDN constant `HOSTOO_BYPASS_CDN` now will apply to all CDN replacements.
 * **Router** Dropped `Router::get_uid()` function.
 * **Crawler** Updated role simulator function for future UCSS usage.
 * **GUI** Textarea will now automatically adjust the height based on the number of rows input.
@@ -423,14 +423,14 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * 🔥🐞**Page Optimize** Hotfix for CSS/JS minify/combine. (@jdelgadoesteban @martin_bailey)
 
 = 3.2.3.1 - Jun 18 2020 =
-* **API** New filter `litespeed_buffer_before` and `litespeed_buffer_after`. (#PR243 @joejordanbrown)
+* **API** New filter `hostoo_buffer_before` and `hostoo_buffer_after`. (#PR243 @joejordanbrown)
 
 = 3.2.3 - Jun 18 2020 =
 * 🌱**Page Optimize** Added Unique CSS option for future removal of unused CSS per page. (@moongear)
 * **Page Optimize** Fixed an issue where Font Optimization could fail when having Load JS Deferred and Load Inline JS Deferred. (#PR241 @joejordanbrown)
 * 🐞**Page Optimize** Fixed an issue with Font Display Optimization which caused Google Fonts to load incorrectly. (#PR240 @joejordanbrown @haidan)
 * 🐞**Network** Use Primary Site Configuration setting for network sites now works properly with Object Cache and Browser Cache. (#56175101)
-* **API** Added filter `litespeed_is_from_cloud` to detect if the current request is from QC or not. (@lechon)
+* **API** Added filter `hostoo_is_from_cloud` to detect if the current request is from QC or not. (@lechon)
 * **ESI** ESI Nonce now can fetch latest list with one click.
 * **GUI** Updated remaining documentation links & some minor UI tweaks. (@Joshua Reynolds)
 
@@ -441,7 +441,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **Cloud** Debug mode will now have no interval limit for most cloud requests. (@ruikai)
 * **Conf** Default Purge Stale to OFF.
 * **GUI** Purge Stale renamed to Serve Stale.
-* **Data** Predefined nonce list located in `/litespeed-cache/data/esi.nonce.txt`. Pull requests welcome.
+* **Data** Predefined nonce list located in `/hostoo-cache/data/esi.nonce.txt`. Pull requests welcome.
 * **Debug** Limited parameter log length.
 * 🐞**CDN** Fixed an issue where upgrading lost value of CDN switch setting. (#888668)
 * **3rd** Caldera Forms ESI Nonce enhancement. (@paconarud16 @marketingsweet)
@@ -500,7 +500,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **Image Optimize** Unfinished queue now will get more detailed info to indicate the proceeding status on node.
 * **CLI** Options can now use true/false as value for bool. (@gavin)
 * **CLI** Detect error if the ID does not exist when get/set an option value.
-* **Doc** An API comment typo for `litespeed_esi_load-` is fixed.
+* **Doc** An API comment typo for `hostoo_esi_load-` is fixed.
 
 = 3.0.8.4 - Apr 30 2020 =
 * 🌱**Crawler** New setting: Sitemap timeout. (#364607)
@@ -573,7 +573,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * 🌱**CLI** QUIC.cloud cmd supported.
 * 🌱**CLI** CLI can send report now.
 * 🌱**Health** Page speed and page score now are in dashboard.
-* 🌱**Conf** Supported consts overwritten of `LITESPEED_CONF__` for all settings. (@menathor)
+* 🌱**Conf** Supported consts overwritten of `HOSTOO_CONF__` for all settings. (@menathor)
 * 🌱**REST** New REST TTL setting.  (@thekendog)
 * 🌱**CDN** New setting `HTML Attribute To Replace`. CDN can now support any HTML attribute to be replaced. (@danushkaj91)
 * 🌱**Debug** Debug URI includes/excludes setings.
@@ -590,12 +590,12 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **ESI** Added Bloom nonce to ESI for Elegant Themes.
 * **Cloud** Able to redetect cloud nodes now.
 * **Img_optm** Fixed stale data in redirected links.
-* **Lazyload** CSS class `litespeed_lazyloaded` is now appended to HTML body after lazyload is finished. (@Adam Wilson)
+* **Lazyload** CSS class `hostoo_lazyloaded` is now appended to HTML body after lazyload is finished. (@Adam Wilson)
 * **Cache** Default drop qs values. (@gijo Varghese)
 * **LQIP** Show all LQIP images in Media column.
 * **CDN** Can now support custom REST API prefix other than wp-json. (#174 @therealgilles)
 * **IAPI** Used REST for notify/destroy/check_img; Removed callback passive/aggreesive IAPI func
-* **CSSJS** Saved all static files to litespeed folder; Uninstallation will remove static cache folder too; Reduced .htaccess rules by serving CSS/JS directly.
+* **CSSJS** Saved all static files to hostoo folder; Uninstallation will remove static cache folder too; Reduced .htaccess rules by serving CSS/JS directly.
 * **Object** Fixed override different ports issue. (@timofeycom #ISSUE178)
 * **Conf** DB Tables will now only create when activating/upgrading/changing settings.
 * **DB** Simplified table operation funcs.
@@ -616,18 +616,18 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * **Conf** Config setting renamed and uniformed.
 * **Conf** Dropped `Conf::option()`. Used `Conf::val()` instead.
 * **Conf** Improved conf initialization and upgrade convertion workflow.
-* **Core** Code base refactored. New namespace LiteSpeed.
+* **Core** Code base refactored. New namespace Hostoo.
 * **API** New API: iframe lazyload exclude filter.
 * **GUI** human readable seconds. (@MarkCanada)
-* **API** API refactored. * NOTE: All 3rd party plugins that are using previous APIs, especially `LiteSpeed_Cache_API`, need to be adjusted to the latest one. Same for ESI blocks.* ESI shortcode doesn't change.
-* **API** New hook `litespeed_update_confs` to settings update.
-* **API** New Hooks `litespeed_frontend_shortcut` and `litespeed_backend_shortcut` for dropdown menu. (@callaloo)
-* **API** Removed `litespeed_option_*` hooks. Use `litespeed_force_option` hook insteadly
-* **API** Renamed `litespeed_force_option` to `litespeed_conf_force`.
-* **API** Removed function `litespeed_purge_single_post`.
+* **API** API refactored. * NOTE: All 3rd party plugins that are using previous APIs, especially `Hostoo_Cache_API`, need to be adjusted to the latest one. Same for ESI blocks.* ESI shortcode doesn't change.
+* **API** New hook `hostoo_update_confs` to settings update.
+* **API** New Hooks `hostoo_frontend_shortcut` and `hostoo_backend_shortcut` for dropdown menu. (@callaloo)
+* **API** Removed `hostoo_option_*` hooks. Use `hostoo_force_option` hook insteadly
+* **API** Renamed `hostoo_force_option` to `hostoo_conf_force`.
+* **API** Removed function `hostoo_purge_single_post`.
 * **REST** New rest API to fetch public IP.
 * **GUI** Hiding Cloudflare/Object Cache/Cloud API key credentials. (@menathor)
-* **GUI** Renamed all backend link tag from lscache to litespeed.
+* **GUI** Renamed all backend link tag from lscache to hostoo.
 * **GUI** fixed duplicated form tag.
 * **GUI** Fix cron doc link. (@arnab Mohapatra)
 * **GUI** Frontend adminbar menu added `Purge All` actions. (@Monarobase)
@@ -726,7 +726,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * <strong>JS</strong>: Improved W3 validator. (@istanbulantik)
 * <strong>QUIC</strong>: Synced cache tag prefix for static files cache.
 * <strong>ESI</strong>: Restored query strings to ESI admin bar for accurate rendering. (#977284)
-* <strong>ESI</strong>: Tweaked ESI init priority to honor LITESPEED_DISABLE_ALL const. ESI will now init after plugin loaded.
+* <strong>ESI</strong>: Tweaked ESI init priority to honor HOSTOO_DISABLE_ALL const. ESI will now init after plugin loaded.
 * 🐞<strong>ESI</strong>: No longer initialize ESI if ESI option is OFF.
 * <strong>API</strong>: New "Disable All" API function.
 * <strong>API</strong>: New "Force public cache" API function.
@@ -740,7 +740,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * <strong>3rd</strong>: Divi Theme Builder no longer experiences nonce expiration issues in the contact form widget. (#475461)
 
 = 2.9.7 - Apr 1 2019 =
-* 🌱🌱🌱 QUIC.cloud CDN feature. Now Apache/Nginx can use LiteSpeed cache freely.
+* 🌱🌱🌱 QUIC.cloud CDN feature. Now Apache/Nginx can use Hostoo cache freely.
 
 = 2.9.6 - Mar 27 2019 =
 * 🌱<strong>IAPI</strong>: Appended XMP to `Preserve EXIF data` setting. WebP will now honor this setting. (#902219)
@@ -749,13 +749,13 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * <strong>Import</strong>: Import/Export will now use JSON format. <strong>Please re-export any backed up settings. Previous backup format is no longer recognized.</strong>
 * <strong>Media</strong>: WebP replacement will honor `Role Excludes` setting now. (@mfazio26)
 * <strong>Data</strong>: Forbid direct visit to const.default.ini.
-* <strong>Utility</strong>: Can handle WHM passed in `LITESPEED_ERR` constant now.
+* <strong>Utility</strong>: Can handle WHM passed in `HOSTOO_ERR` constant now.
 * <strong>IAPI</strong>: Communicate via JSON encoding.
 * <strong>IAPI</strong>: IAPI v2.9.6.
 
 = 2.9.5 - Mar 14 2019 =
 * 🌱 Auto convert default WordPress nonce to ESI to avoid expiration.
-* 🌱 <strong>API</strong>: Ability to easily convert custom nonce to ESI by registering `LiteSpeed_Cache_API::nonce_action`.
+* 🌱 <strong>API</strong>: Ability to easily convert custom nonce to ESI by registering `Hostoo_Cache_API::nonce_action`.
 * <strong>OPTM</strong>: Tweaked redundant attr `data-no-optimize` in func `_analyse_links` to `data-ignore-optimize` to offer the API to bypass optimization but still move src to top of source code.
 * <strong>API</strong>: Renamed default nonce ESI ID from `lscwp_nonce_esi` to `nonce`.
 * <strong>API</strong>: Added WebP generation & validation hook API. (@alim #wp-stateless)
@@ -775,7 +775,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * 🐞<strong>ESI</strong>: Fixed a redundant ESI 301 redirect when comma is in ESI URL.
 * <strong>ESI</strong>: REST call can now parse shortcodes in ESI.
 * <strong>API</strong>: Changed ESI `parse_esi_param()` function to private and `load_esi_block` function to non-static.
-* <strong>API</strong>: Added `litespeed_is_json` hook for buffer JSON conversion.
+* <strong>API</strong>: Added `hostoo_is_json` hook for buffer JSON conversion.
 * <strong>GUI</strong>: Prepended plugin name to new version notification banner.
 * <strong>3rd</strong>: WPML multi domains can now be handled in optimization without CDN tricks.
 
@@ -791,11 +791,11 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * <strong>Tag</strong>: Only append blog ID to cache tags when site is part of a network.
 * <strong>IAPI</strong>: Optimized database query for pulling images.
 * <strong>GUI</strong>: Added more plugin version checking for better feature compatibility.
-* <strong>GUI</strong>: Ability to bypass non-critical banners with the file .litespeed_no_banner.
+* <strong>GUI</strong>: Ability to bypass non-critical banners with the file .hostoo_no_banner.
 * <strong>Media</strong>: Background image WebP replacement now supports quotes around src.
 
 = 2.9.2 - Feb 5 2019 =
-* <strong>API</strong>: Add a hook `litespeed_esi_shortcode-*` for ESI shortcodes.
+* <strong>API</strong>: Add a hook `hostoo_esi_shortcode-*` for ESI shortcodes.
 * <strong>3rd</strong>: WooCommerce can purge products now when variation stock is changed.
 * 🐞🕷️: Forced HTTP1.1 for crawler due to a CURL HTTP2 bug.
 
@@ -847,7 +847,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * 🌱: ESI shortcodes.
 * 🌱: Mobile crawler.
 * 🌱: Cookie crawler.
-* <strong>API</strong>: Can now add `_litespeed_rm_qs=0` to bypass Remove Query Strings.
+* <strong>API</strong>: Can now add `_hostoo_rm_qs=0` to bypass Remove Query Strings.
 * <strong>Optm</strong>: Removed error log when minify JS failed.
 * 🐞<strong>Core</strong>: Fixed a bug that caused network activation PHP warning.
 * <strong>Media</strong>: Removed canvas checking for WebP to support TOR. (@odeskumair)
@@ -872,7 +872,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * <strong>CDN</strong>: Bypass CDN for cron to avoid WP jQuery deregister warning.
 
 = 2.7.1 - Nov 15 2018 =
-* 🌱<strong>CLI</strong>: Ability to set CDN mapping by `set_option litespeed-cache-cdn_mapping[url][0] https://url`.
+* 🌱<strong>CLI</strong>: Ability to set CDN mapping by `set_option hostoo-cache-cdn_mapping[url][0] https://url`.
 * 🌱<strong>CDN</strong>: Ability to customize default CDN mapping data in default.ini.
 * 🌱<strong>API</strong>: Default.ini now supports both text-area items and on/off options.
 * <strong>Vary</strong>: Refactored Vary and related API.
@@ -881,9 +881,9 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * <strong>Core</strong>: Unified Object Cache/rewrite rules generation process across activation/import/reset/CLI.
 * <strong>Core</strong>: Always hook activation to make activation available through the front end.
 * 🐞<strong>IAPI</strong>: Fixed a bug where environment report gave incorrect image optimization data.
-* 🐞<strong>OLS</strong>: Fixed a bug where login cookie kept showing a warning on OpenLiteSpeed.
+* 🐞<strong>OLS</strong>: Fixed a bug where login cookie kept showing a warning on OpenHostoo.
 * 🐞<strong>Core</strong>: Fixed a bug where Import/Activation/CLI was missing CDN mapping settings.
-* <strong>API</strong>: <strong>Filters `litespeed_cache_media_lazy_img_excludes/litespeed_optm_js_defer_exc` passed-in parameter is changed from string to array.</strong>
+* <strong>API</strong>: <strong>Filters `hostoo_cache_media_lazy_img_excludes/hostoo_optm_js_defer_exc` passed-in parameter is changed from string to array.</strong>
 
 = 2.7 - Nov 2 2018 =
 * 🌱: Separate Purge log for better debugging.
@@ -921,20 +921,20 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 
 = 2.6.1 - Oct 4 2018 =
 * 🌱: Ability to generate separate Critical CSS Cache for Post Types & URIs.
-* <strong>API</strong>: Filter `litespeed_frontend_htaccess` for frontend htaccess path.
+* <strong>API</strong>: Filter `hostoo_frontend_htaccess` for frontend htaccess path.
 * <strong>Media</strong>: Removed responsive placeholder generation history to save space.
 
 = 2.6.0.1 - Sep 24 2018 =
 * 🔥🐞: Fixed an issue in responsive placeholder generation where redundant history data was being saved and using a lot of space.
 
 = 2.6 - Sep 22 2018 =
-* <strong>Vary</strong>: Moved `litespeed_cache_api_vary` hook outside of OLS condition for .htaccess generation.
+* <strong>Vary</strong>: Moved `hostoo_cache_api_vary` hook outside of OLS condition for .htaccess generation.
 * <strong>CDN</strong>: Trim spaces in original URL of CDN setting.
-* <strong>API</strong>: New filter `litespeed_option_` to change all options dynamically.
-* <strong>API</strong>: New `LiteSpeed_Cache_API::force_option()` to change all options dynamically.
-* <strong>API</strong>: New `LiteSpeed_Cache_API::vary()` to set default vary directly for easier compaitiblity with WPML WooCommerce Multilingual.
-* <strong>API</strong>: New `LiteSpeed_Cache_API::nonce()` to safely and easily allow caching of wp-nonce.
-* <strong>API</strong>: New `LiteSpeed_Cache_API::hook_vary_add()` to add new vary.
+* <strong>API</strong>: New filter `hostoo_option_` to change all options dynamically.
+* <strong>API</strong>: New `Hostoo_Cache_API::force_option()` to change all options dynamically.
+* <strong>API</strong>: New `Hostoo_Cache_API::vary()` to set default vary directly for easier compaitiblity with WPML WooCommerce Multilingual.
+* <strong>API</strong>: New `Hostoo_Cache_API::nonce()` to safely and easily allow caching of wp-nonce.
+* <strong>API</strong>: New `Hostoo_Cache_API::hook_vary_add()` to add new vary.
 * <strong>Optm</strong>: Changed HTML/JS/CSS optimization options assignment position from constructor to `finalize()`.
 * <strong>Doc</strong>: Added nonce to FAQ and mentioned nonce in 3rd Party Compatibility section.
 * <strong>GUI</strong>: Moved inline minify to under html minify due to the dependency.
@@ -949,7 +949,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 = 2.5 - Sep 6 2018 =
 * [IMPROVEMENT] <strong>CLI</strong> can now execute Remove Original Image Backups. (@Shon)
 * [UPDATE] Fixed issue where WP-PostViews documentation contained extra slashes. (#545638)
-* [UPDATE] Check LITESPEED_SERVER_TYPE for more accurate LSCache Disabled messaging.
+* [UPDATE] Check HOSTOO_SERVER_TYPE for more accurate LSCache Disabled messaging.
 * [IAPI] Fixed a bug where optimize/fetch error notification was not being received. (@LucasRolff)
 
 = 2.4.4 - Aug 31 2018 =
@@ -972,7 +972,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [IMPROVEMENT] <strong>Media</strong> Sped up Image Optimization process by replacing IAPI server pull communication.
 * [IMPROVEMENT] <strong>Media</strong> Ability to delete optimized WebP/original image by item in Media Library. (@redgoodapple)
 * [IMPROVEMENT] <strong>CSS Optimize</strong> Generate new optimized CSS name based on purge timestamp. Allows CSS cache to be cleared for visitors. (@bradbrownmagic)
-* [IMPROVEMENT] <strong>API</strong> added litespeed_img_optm_options_per_image. (@gintsg)
+* [IMPROVEMENT] <strong>API</strong> added hostoo_img_optm_options_per_image. (@gintsg)
 * [UPDATE] Stopped showing "No Image Found" message when all images have finished optimization. (@knutsp)
 * [UPDATE] Improved a PHP warning when saving settings. (@sergialarconrecio)
 * [UPDATE] Changed backend adminbar icon default behavior from Purge All to Purge LSCache.
@@ -1063,9 +1063,9 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [BUGFIX] Fixed issue where inline JS minify exception caused a blank page. (@oomskaap @kenb1978)
 * [UPDATE] Changed HTTP/2 Crawl default value to OFF.
 * [UPDATE] Added img.data-src to default WebP replacement value for WooCommerce WebP support.
-* [UPDATE] Detached crawler from LSCache LITESPEED_ON status.
+* [UPDATE] Detached crawler from LSCache HOSTOO_ON status.
 * [API] Improved ESI API to honor the cache control in ESI wrapper.
-* [API] Added LITESPEED_PURGE_SILENT const to bypass the notification when purging
+* [API] Added HOSTOO_PURGE_SILENT const to bypass the notification when purging
 * [INTEGRATION] Fixed issue with nonce expiration when using ESI API. (#923505 @Dan)
 * [INTEGRATION] Improved compatibility with Ninja Forms by bypassing non-javascript JS from inline JS minify.
 * [INTEGRATION] Added a hook for plugins that change the CSS/JS path e.g. Hide My WordPress.
@@ -1074,7 +1074,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [NEW FEATURE] WebP Attribute To Replace setting in Media tab. (@vengen)
 * [IMPROVEMENT] Generate adv_cache file automatically when it is lost.
 * [IMPROVEMENT] Improved compatibility with ajax login. (@veganostomy)
-* [UPDATE] Added object cache lib check in case user downgrades LSCWP to non-object-cache versions.
+* [UPDATE] Added object cache lib check in case user downgrades HCWP to non-object-cache versions.
 * [UPDATE] Avoided infinite loop when users enter invalid hook values in Purge All Hooks settings.
 * [UPDATE] Updated log format in media&cdn class.
 * [UPDATE] Added more items to Report.
@@ -1122,16 +1122,16 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [BUGFIX] Fixed issue where 304 header was blank on feed page refresh.
 
 = 2.1.1 - Mar 20 2018 =
-* [NEW FEATURE] <strong>Browser Cache</strong> Unlocked for non-LiteSpeed users.
+* [NEW FEATURE] <strong>Browser Cache</strong> Unlocked for non-Hostoo users.
 * [IMPROVEMENT] <strong>Image Optimization</strong> Fixed issue where images with bad postmeta value continued to show in not-yet-requested queue.
 
 = 2.1 - Mar 15 2018 =
-* [NEW FEATURE] <strong>Image Optimization</strong> Unlocked for non-LiteSpeed users.
-* [NEW FEATURE] <strong>Object Cache</strong> Unlocked for non-LiteSpeed users.
-* [NEW FEATURE] <strong>Crawler</strong> Unlocked for non-LiteSpeed users.
-* [NEW FEATURE] <strong>Database Cleaner and Optimizer</strong> Unlocked for non-LiteSpeed users.
-* [NEW FEATURE] <strong>Lazy Load Images</strong> Unlocked for non-LiteSpeed users.
-* [NEW FEATURE] <strong>CSS/JS/HTML Minify/Combine Optimize</strong> Unlocked for non-LiteSpeed users.
+* [NEW FEATURE] <strong>Image Optimization</strong> Unlocked for non-Hostoo users.
+* [NEW FEATURE] <strong>Object Cache</strong> Unlocked for non-Hostoo users.
+* [NEW FEATURE] <strong>Crawler</strong> Unlocked for non-Hostoo users.
+* [NEW FEATURE] <strong>Database Cleaner and Optimizer</strong> Unlocked for non-Hostoo users.
+* [NEW FEATURE] <strong>Lazy Load Images</strong> Unlocked for non-Hostoo users.
+* [NEW FEATURE] <strong>CSS/JS/HTML Minify/Combine Optimize</strong> Unlocked for non-Hostoo users.
 * [IAPI] IAPI v2.0.
 * [IAPI] Increased max rows prefetch when client has additional credit.
 * [IMPROVEMENT] <strong>CDN</strong> Multiple domains may now be used.
@@ -1159,7 +1159,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [UPDATE] <strong>Crawler</strong> Added HTTP/2 protocol switch in the Crawler settings.
 * [UPDATE] Removed unnecessary translation strings.
 * [GUI] Display translated role group name string instead of English values. (@Richard Hordern)
-* [GUI] Added Join LiteSpeed Slack link.
+* [GUI] Added Join Hostoo Slack link.
 * [GUI] <strong>Import / Export</strong> Cosmetic changes to Import Settings file field.
 * [INTEGRATION] Improved compatibility with WPML Media for Image Optimization. (@szmigieldesign)
 
@@ -1216,7 +1216,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 = 1.8 - January 17 2018 =
 * [NEW FEATURE] Object Cache.
 * [REFACTOR] Refactored Log class.
-* [REFACTOR] Refactored LSCWP basic const initialization.
+* [REFACTOR] Refactored HCWP basic const initialization.
 * [BUGFIX] Fixed Cloudflare domain search breaking when saving more than 50 domains under a single account.
 * [UPDATE] Log filter settings are now their own item in the wp-option table.
 
@@ -1284,7 +1284,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 = 1.6.5 - November 30 2017 =
 * [IAPI] Manually pull image optimization action button.
 * [IAPI] Automatic credit system for image optimization to bypass unfinished image optimization error.
-* [IAPI] Notify failed images from LiteSpeed's Image Server.
+* [IAPI] Notify failed images from Hostoo's Image Server.
 * [IAPI] Reset/Clear failed images feature.
 * [IAPI] Redesigned report page.
 * [REFACTOR] Moved pull_img logic from admin_api to media.
@@ -1345,7 +1345,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [REFACTOR] Refactored login vary logic.
 
 = 1.6.1 - October 29 2017 =
-* [IAPI] Updated LiteSpeed Image Optimization Server API to v1.6.1.
+* [IAPI] Updated Hostoo Image Optimization Server API to v1.6.1.
 
 = 1.6 - October 27 2017 =
 * [NEW FEATURE] Image Optimization.
@@ -1368,7 +1368,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [NEW FEATURE] Lazy Load Images Excludes.
 * [NEW FEATURE] Lazy Load Image Placeholder.
 * [IMPROVEMENT] Improved Lazy Load size attribute for w3c validator.
-* [UPDATE] Added basic caching info and LSCWP version to HTML comment.
+* [UPDATE] Added basic caching info and HCWP version to HTML comment.
 * [UPDATE] Added debug log to HTML detection.
 * [BUGFIX] Fixed potential font CORS issue when using CDN.
 * [GUI] Added API docs to setting description.
@@ -1508,20 +1508,20 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 = 1.1.4 - August 1 2017 =
 * [IMPROVEMENT] Unexpected rewrite rules will now show an error message.
 * [IMPROVEMENT] Added Cache Tag Prefix setting info in the Env Report and Info page.
-* [IMPROVEMENT] LSCWP setting link is now displayed in the plugin list.
+* [IMPROVEMENT] HCWP setting link is now displayed in the plugin list.
 * [IMPROVEMENT] Improved performance when setting cache control.
 * [UPDATE] Added backward compatibility for v1.1.2.2 API calls. (used by 3rd-party plugins)
 * [BUGFIX] Fixed WPCLI purge tag/category never succeeding.
 
 = 1.1.3 - July 31 2017 =
-* [NEW FEATURE] New LiteSpeed_Cache_API class and documentation for 3rd party integration.
-* [NEW FEATURE] New API function litespeed_purge_single_post($post_id).
+* [NEW FEATURE] New Hostoo_Cache_API class and documentation for 3rd party integration.
+* [NEW FEATURE] New API function hostoo_purge_single_post($post_id).
 * [NEW FEATURE] PHP CLI support for crawler.
 * [IMPROVEMENT] Set 'no cache' for same location 301 redirects.
-* [IMPROVEMENT] Improved LiteSpeed footer comment compatibility.
+* [IMPROVEMENT] Improved Hostoo footer comment compatibility.
 * [UPDATE] Removed 'cache tag prefix' setting.
 * [BUGFIX] Fixed a bug involving CLI purge all.
-* [BUGFIX] Crawler now honors X-LiteSpeed-Cache-Control for the 'no-cache' header.
+* [BUGFIX] Crawler now honors X-Hostoo-Cache-Control for the 'no-cache' header.
 * [BUGFIX] Cache/rewrite rules are now cleared when the plugin is uninstalled.
 * [BUGFIX] Prevent incorrect removal of the advanced-cache.php on deactivation if it was added by another plugin.
 * [BUGFIX] Fixed subfolder WP installations being unable to Purge By URL using a full URL path.
@@ -1544,7 +1544,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [BUGFIX] Hotfix for insufficient validation of site IP value in crawler settings.
 
 = 1.1.1 - June 15 2017 =
-* [NEW] As of LiteSpeed Web Server v.5.1.16, the crawler can now be enabled/disabled at the server level.
+* [NEW] As of Hostoo Web Server v.5.1.16, the crawler can now be enabled/disabled at the server level.
 * [NEW] Added the ability to provide a custom sitemap for crawling.
 * [NEW] Added ability to use site IP address directly in crawler settings.
 * [NEW] Crawler performance improved with the use of new custom user agent 'lsrunner'.
@@ -1584,7 +1584,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [UPDATE] Change environment report file to .php and increase security.
 * [UPDATE] Added new purgeby option to wp-cli.
 * [UPDATE] Remove nag for multiple sites.
-* [UPDATE] Only inject LiteSpeed javascripts in LiteSpeed pages.
+* [UPDATE] Only inject Hostoo javascripts in Hostoo pages.
 * [REFACTOR] Properly check for zero in ttl settings.
 * [BUGFIX] Fixed the 404 issue that can be caused by some certain plugins when save the settings.
 * [BUGFIX] Fixed mu-plugin compatibility.
@@ -1600,7 +1600,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [NEW] Added wp-cli integration.
 * [UPDATE] Added support for multiple varies.
 * [UPDATE] Reorganize the admin interface to be less cluttered.
-* [UPDATE] Add support for LiteSpeed Web ADC.
+* [UPDATE] Add support for Hostoo Web ADC.
 * [UPDATE] Add Freemius integration.
 * [REFACTOR] Made some changes so that the rewrite rules are a little more consistent.
 * [BUGFIX] Check member type before adding purge all button.
@@ -1644,7 +1644,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * [UPDATE] Rules added by the plugin will now be inserted into an LSCACHE START/END PLUGIN comment block.
 * [UPDATE] For woocommerce pages, if a user visits a non-cached page with a non-empty cart, do not cache the page.
 * [UPDATE] If woocommerce needs to display any notice, do not cache the page.
-* [UPDATE] Single site settings are now in both the litespeed cache submenu and the settings submenu.
+* [UPDATE] Single site settings are now in both the hostoo cache submenu and the settings submenu.
 * [BUGFIX] Multisite network options were not updated on upgrade. This is now corrected.
 
 = 1.0.10 - September 16 2016 =
@@ -1701,7 +1701,7 @@ The vast majority of plugins and themes are compatible with Hostoo Cache. The mo
 * Added Like Dislike Counter third party integration.
 * Added support for Admin IP Query String Actions.
 * Added confirmation pop up for purge all.
-* Refactor: LiteSpeed_Cache_Admin is now split into LiteSpeed_Cache_Admin, LiteSpeed_Cache_Admin_Display, and LiteSpeed_Cache_Admin_Rules
+* Refactor: Hostoo_Cache_Admin is now split into Hostoo_Cache_Admin, Hostoo_Cache_Admin_Display, and Hostoo_Cache_Admin_Rules
 * Refactor: Rename functions to accurately represent their functionality
 * Fixed a bug that sometimes caused a “no valid header” error message.
 

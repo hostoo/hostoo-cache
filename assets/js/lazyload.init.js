@@ -1,7 +1,7 @@
 /**
  * Lazyload init js
  *
- * @author LiteSpeed
+ * @author Hostoo
  * @since 1.4
  *
  */
@@ -12,12 +12,12 @@
 	var instance;
 	var update_lazyload;
 
-	var litespeed_finish_callback = function(){
-		document.body.classList.add( 'litespeed_lazyloaded' );
+	var hostoo_finish_callback = function(){
+		document.body.classList.add( 'hostoo_lazyloaded' );
 	}
 
 	var init = function(){
-		instance = new LazyLoad( { elements_selector: "[data-lazyloaded]", callback_finish: litespeed_finish_callback } );
+		instance = new LazyLoad( { elements_selector: "[data-lazyloaded]", callback_finish: hostoo_finish_callback } );
 
 		update_lazyload = function(){
 			instance.update() ;

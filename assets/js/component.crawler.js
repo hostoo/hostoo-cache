@@ -45,8 +45,8 @@ class CrawlerSimulate extends React.Component {
 			) ) }
 
 				<p>
-					<button type="button" className="button button-link litespeed-form-action litespeed-link-with-icon" onClick={this.addNew}>
-						<span className="dashicons dashicons-plus-alt"></span>{litespeed_data[ 'lang' ][ 'add_cookie_simulation_row' ]}
+					<button type="button" className="button button-link hostoo-form-action hostoo-link-with-icon" onClick={this.addNew}>
+						<span className="dashicons dashicons-plus-alt"></span>{hostoo_data[ 'lang' ][ 'add_cookie_simulation_row' ]}
 					</button>
 				</p>
 			</React.Fragment>
@@ -74,19 +74,19 @@ class SimulationBlock extends React.Component {
 	render() {
 		const item = this.props.item;
 		return (
-			<div className="litespeed-block">
-				<div className="litespeed-col-auto">
-					<label className="litespeed-form-label">{ litespeed_data[ 'lang' ][ 'cookie_name' ] }</label>
-					<input type="text" name={ litespeed_data[ 'ids' ][ 'crawler_cookies' ] + '[name][]' } className="regular-text" value={item.name} data-type="name" onChange={this.handleInputChange} />
+			<div className="hostoo-block">
+				<div className="hostoo-col-auto">
+					<label className="hostoo-form-label">{ hostoo_data[ 'lang' ][ 'cookie_name' ] }</label>
+					<input type="text" name={ hostoo_data[ 'ids' ][ 'crawler_cookies' ] + '[name][]' } className="regular-text" value={item.name} data-type="name" onChange={this.handleInputChange} />
 				</div>
-				<div className="litespeed-col-auto">
-					<label className="litespeed-form-label">{ litespeed_data[ 'lang' ][ 'cookie_values' ] }</label>
-					<textarea rows="5" cols="40" name={ litespeed_data[ 'ids' ][ 'crawler_cookies' ] + '[vals][]' } placeholder={ litespeed_data[ 'lang' ][ 'one_per_line' ] } value={ Array.isArray(item.vals) ? item.vals.join("\n") : item.vals } data-type="vals" onChange={this.handleInputChange} />
+				<div className="hostoo-col-auto">
+					<label className="hostoo-form-label">{ hostoo_data[ 'lang' ][ 'cookie_values' ] }</label>
+					<textarea rows="5" cols="40" name={ hostoo_data[ 'ids' ][ 'crawler_cookies' ] + '[vals][]' } placeholder={ hostoo_data[ 'lang' ][ 'one_per_line' ] } value={ Array.isArray(item.vals) ? item.vals.join("\n") : item.vals } data-type="vals" onChange={this.handleInputChange} />
 				</div>
-				<div className="litespeed-col-auto">
-					<button type="button" className="button button-link litespeed-collection-button litespeed-danger" onClick={this.delRow}>
+				<div className="hostoo-col-auto">
+					<button type="button" className="button button-link hostoo-collection-button hostoo-danger" onClick={this.delRow}>
 						<span className="dashicons dashicons-dismiss"></span>
-						<span className="screen-reader-text">{ litespeed_data[ 'lang' ][ 'remove_cookie_simulation' ] }</span>
+						<span className="screen-reader-text">{ hostoo_data[ 'lang' ][ 'remove_cookie_simulation' ] }</span>
 					</button>
 				</div>
 			</div>
