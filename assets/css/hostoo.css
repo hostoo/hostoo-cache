@@ -296,7 +296,7 @@
 }
 
 .hostoo-indisp{
-	color:#6b6a6aab !important;
+	color:#6e6e6e !important;
 }
 
 .hostoo-alert {
@@ -351,6 +351,15 @@ button.hostoo-form-action:hover {
 
 .hostoo-bg-text-success {
 	background-color: #34b15d;
+}
+
+.hostoo-info {
+	color: #d1ecf1 !important;
+}
+
+
+.hostoo-bg-info {
+	background-color: #d1ecf1 !important;
 }
 
 /* =======================================
@@ -3795,26 +3804,24 @@ border-radius: 50%;
 /* HOSTOO BODY OBJECT */
 
 .hostoo-body-object {
-	height: 80vh;
+	height: 90vh;
 	background-color:#F9F9F9;
 	background: url("../img/acelerador.svg")  no-repeat right;
+	background-size: contain;
 	box-shadow: 0 0 0 0;
-	margin-right: 36px;
+	margin-right: 34px;
 	mix-blend-mode: darken;
+}
+
+.hostoo-cache-content-text-object{
+	margin-top: 25px;
+	max-width: 70%;
 }
 
 .hostoo-cache-text-object{
 	font-size: 28px;
+	line-height: 1;
 }
-
-.hostoo-content-object{
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	padding-left: 100px;
-	padding-top: 110px;
-	font-size: 28px;
-   }
 
 button {
 	cursor: pointer;
@@ -3926,21 +3933,24 @@ button {
 	height: 42px;
 	border-radius: 5px;
 	border: 0;
-	padding: 0 16px;
+	padding: 10px 20px;
 	width: 136px;
 	margin-top: 10px;
 	font-size: 18px;
 	color: #FFFFFF;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .hostoo-button-learn-more:hover{	
 	background: #45307ec0;
-
+	color:#FFFFFF;
 }
 
 .hostoo-button-learn-more:focus{
 	outline: 0;
-	background: #45307ed0;
+	background: #45307E;
+	color:#FFFFFF;
 }
 
 .hostoo-content-object{

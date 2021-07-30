@@ -6,7 +6,7 @@
  *
  */
 
-(function( window, document ){
+ (function( window, document ){
 	'use strict' ;
 
 	var instance;
@@ -17,6 +17,7 @@
 	}
 
 	var init = function(){
+		console.log( '[Hostoo] Start Lazyload image' )
 		instance = new LazyLoad( { elements_selector: "[data-lazyloaded]", callback_finish: hostoo_finish_callback } );
 
 		update_lazyload = function(){

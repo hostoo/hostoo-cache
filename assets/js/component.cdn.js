@@ -2,7 +2,7 @@
  * CDN module
  * @author Hai Zheng
  */
-class CDNMapping extends React.Component {
+ class CDNMapping extends React.Component {
 	constructor( props ) {
 		super( props );
 		this.state = {
@@ -81,7 +81,7 @@ class CDNMappingBlock extends React.Component {
 			<div className="hostoo-block">
 				<div className='hostoo-cdn-mapping-col1'>
 					<label className="hostoo-form-label">{ hostoo_data[ 'lang' ][ 'cdn_mapping_url' ] }</label>
-					<input type="text" name={ name_prefix + '[url][]' } className="regular-text hostoo-input-long" value={item.url} data-type="url" onChange={this.onChange} />
+					<input type="text" name={ name_prefix + '[url][]' } className="regular-text hostoo-input-long" value={item.url?item.url:''} data-type="url" onChange={this.onChange} />
 
 					<div className="hostoo-desc">
 						<span dangerouslySetInnerHTML={{ __html: hostoo_data[ 'lang' ][ 'cdn_mapping_url_desc' ] }} />
@@ -89,7 +89,7 @@ class CDNMappingBlock extends React.Component {
 				</div>
 
 				<div className="hostoo-col-auto hostoo-cdn-mapping-col2">
-					<div className="hosto-row hostoo-toggle-wrapper">
+					<div className="hostoo-row hostoo-toggle-wrapper">
 						<div className="hostoo-cdn-mapping-inc hostoo-form-label hostoo-form-label--toggle">
 							{ hostoo_data[ 'lang' ][ 'cdn_mapping_inc_img' ] }
 						</div>
@@ -102,7 +102,7 @@ class CDNMappingBlock extends React.Component {
 							</div>
 						</div>
 					</div>
-					<div className="hosto-row hostoo-toggle-wrapper">
+					<div className="hostoo-row hostoo-toggle-wrapper">
 						<div className="hostoo-cdn-mapping-inc hostoo-form-label hostoo-form-label--toggle">
 							{ hostoo_data[ 'lang' ][ 'cdn_mapping_inc_css' ] }
 						</div>
@@ -115,7 +115,7 @@ class CDNMappingBlock extends React.Component {
 							</div>
 						</div>
 					</div>
-					<div className="hosto-row hostoo-toggle-wrapper">
+					<div className="hostoo-row hostoo-toggle-wrapper">
 						<div className="hostoo-cdn-mapping-inc hostoo-form-label hostoo-form-label--toggle">
 							{ hostoo_data[ 'lang' ][ 'cdn_mapping_inc_js' ] }
 						</div>
