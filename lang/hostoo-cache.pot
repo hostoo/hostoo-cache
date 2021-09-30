@@ -4362,12 +4362,12 @@ msgid "Use QUIC.cloud online service to generate unique CSS."
 msgstr ""
 
 #: tpl/page_optm/settings_css.tpl.php:65
-msgid "This will drop the unused CSS on each page from the combined file."
+msgid "This will drop the unique CSS on each page from the combined file."
 msgstr ""
 
 #: tpl/page_optm/settings_css.tpl.php:67
 msgid ""
-"Automatic generation of unused CSS is in the background via a cron-based "
+"Automatic generation of unique CSS is in the background via a cron-based "
 "queue."
 msgstr ""
 

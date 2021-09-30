@@ -605,6 +605,15 @@ h3 .hostoo-learn-more {
 	border-top: 1px solid #f1f1f1;
 }
 
+.hostoo-postbox .hostoo-title {
+	display: flex;
+}
+
+.hostoo-title-right-icon {
+	margin-left: auto;
+	font-weight: normal;
+}
+
 .hostoo-list li:before {
 	content: '>';
 	color: #cc3d6a;
@@ -2816,7 +2825,6 @@ g.hostoo-pie_info .hostoo-pie-done {
 	padding: 0px 20px 7px 20px;
 	border-bottom: 1px solid #eee;
 	font-size: 1.2em;
-	display: block;
 }
 
 .hostoo-postbox .inside.hostoo-postbox-footer {

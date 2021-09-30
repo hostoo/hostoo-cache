@@ -6,29 +6,29 @@
  *
  */
 
- (function( window, document ){
-	'use strict' ;
+(function (window, document) {
+	'use strict';
 
 	var instance;
 	var update_lazyload;
 
-	var hostoo_finish_callback = function(){
-		document.body.classList.add( 'hostoo_lazyloaded' );
+	var hostoo_finish_callback = function () {
+		document.body.classList.add('hostoo_lazyloaded');
 	}
 
-	var init = function(){
-		console.log( '[Hostoo] Start Lazyload image' )
-		instance = new LazyLoad( { elements_selector: "[data-lazyloaded]", callback_finish: hostoo_finish_callback } );
+	var init = function () {
+		console.log('[Hostoo] Start Lazy Load Images')
+		instance = new LazyLoad({ elements_selector: "[data-lazyloaded]", callback_finish: hostoo_finish_callback });
 
-		update_lazyload = function(){
-			instance.update() ;
+		update_lazyload = function () {
+			instance.update();
 		};
 
-		if ( window.MutationObserver ) {
-			new MutationObserver( update_lazyload ).observe( document.documentElement, { childList: true, subtree: true, attributes: true } ) ;
+		if (window.MutationObserver) {
+			new MutationObserver(update_lazyload).observe(document.documentElement, { childList: true, subtree: true, attributes: true });
 		}
 	};
 
-	window.addEventListener ? window.addEventListener( "load", init, false ) : window.attachEvent( "onload", init ) ;
+	window.addEventListener ? window.addEventListener("load", init, false) : window.attachEvent("onload", init);
 
-})( window, document ) ;
+})(window, document);
