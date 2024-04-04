@@ -1,6 +1,0 @@
-# Predefined list for excluding deferred JS files or inline JS codes #
-# Comment can use `# `(there is a space following), or `##`, can use both as a new line or end of one line
-
-
-# JS file URL excludes
-
