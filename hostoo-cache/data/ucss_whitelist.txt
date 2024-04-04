@@ -1,0 +1,9 @@
+# Predefined list for UCSS whitelist #
+# Comment can use `# `(there is a space following), or `##`, can use both as a new line or end of one line
+
+
+############# DoBar compatibility #############
+.pace-inactive
+
+############# DIVI ################
+.et_pb_number_counter.active
