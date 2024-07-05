@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Hostoo Cache
  * Description:       High-performance page caching and site optimization from Hostoo
- * Version:           2.3.4
+ * Version:           2.3.5
  * Author:            Hostoo
  * Author URI:        https://hostoo.io/
  * License:           GPLv3
@@ -16,7 +16,7 @@ if (defined('HCWP_V')) {
     return;
 }
 
-! defined('HCWP_V') && define('HCWP_V', '2.3.4');
+! defined('HCWP_V') && define('HCWP_V', '2.3.5');
 
 ! defined('HCWP_CONTENT_DIR') && define('HCWP_CONTENT_DIR', WP_CONTENT_DIR) ;
 ! defined('HCWP_DIR') && define('HCWP_DIR', __DIR__ . '/') ;// Full absolute path '/var/www/html/***/wp-content/plugins/hostoo-cache/' or MU
@@ -141,9 +141,10 @@ if (! function_exists('hostoo_define_nonce_func')) {
     }
 }
 
-require_once 'WPFDGitHubPluginUpdater.php';
+require_once 'Updater.php';
+
 if (is_admin()) {
-    new WPFDGitHubPluginUpdater(__FILE__, 'hostoo', "hostoo-cache");
+    new Updater();
 }
 
 /**
